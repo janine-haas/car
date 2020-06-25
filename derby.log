@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Thu Jun 25 08:30:12 CEST 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0172-ea2b-627f-0000024e3af0 
+Thu Jun 25 09:07:48 CEST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0172-ea4d-ccb0-000001050428 
 on database directory C:\Users\janin\Documents\FH\Semester4\ContinousIntegration\carwebapp\db_car with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44 
 Loaded from file:/C:/Users/janin/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Oracle Corporation
