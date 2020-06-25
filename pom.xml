@@ -69,19 +69,10 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
 
-            <plugin>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <configuration>
-                    <skip>true</skip>
-                    <includes>
-                        <include>**/*.*</include>
-                    </includes>
-                    <excludedGroups>integration-test</excludedGroups>
-                </configuration>
-            </plugin>
+
 
             <plugin>
-                <artifactId>maven-failsafe-plugin</artifactId>
+                <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
                     <skip>true</skip>
                     <includes>
@@ -92,7 +83,6 @@
                 <executions>
                     <execution>
                         <goals>
-                            <goal>integration-test</goal>
                             <goal>test</goal>
                         </goals>
                     </execution>
@@ -108,7 +98,7 @@
             <build>
                 <plugins>
                     <plugin>
-                        <artifactId>maven-failsafe-plugin</artifactId>
+                        <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
                             <skip>false</skip>
                             <groups>integration-test</groups>
